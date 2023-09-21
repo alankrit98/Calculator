@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <div class="navbar-mainhead">
+            <h1>
+                <center>
+                    CURRENCY CONVERTER
+                </center>
+            </h1>
+        </div>
+        <div class="navbar-mainsocials">
+            <a href="#">
+                <img class="navbar-n" src="images/5296501_linkedin_network_linkedin logo_icon.png" alt="linkedin">
+            </a>
+            <a href="#">
+                <img src="images/3225191_app_instagram_logo_media_popular_icon.png" alt="instagram" class="navbar-n">
+            </a>
+            <a href="#">
+                <img src="images/1964417_github_logo_media_social_icon.png" alt="github" class="navbar-n">
+            </a>
+        </div>
+    </nav>
+    <div class="converter">
+        <h1>Currency Converter</h1>
+        <div class="input">
+            <input type="number" id="amount" placeholder="Enter Amount">
+            <select id="FromCurrency">
+                <option value="INR">Rupee(INR)</option>
+                <option value="USD">Dollar(USD)</option>
+                <option value="EUR">EURO</option>
+                <option value="YEN">YEN</option>
+                <option value="WON">WON</option>
+                <option value="DIN">DINAR</option>
+            </select>
+            <span>to</span>
+            <select id="ToCurrency">
+                <option value="INR">Rupee(INR)</option>
+                <option value="USD">Dollar(USD)</option>
+                <option value="EUR">EURO</option>
+                <option value="YEN">YEN</option>
+                <option value="WON">WON</option>
+                <option value="DIN">DINAR</option>
+            </select>
+            <button id="convert">Convert</button>
+        </div>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
