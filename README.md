@@ -1,2 +1,1 @@
-# technohacksedutech-web_development-task_2
-Web Developer Intern
+**A HTML/CSS and Js based Calculator**
